@@ -1,0 +1,16 @@
+{
+    "name": "mdw-central",
+    "version": "0.0.1",
+    "description": "socket.io server app example",
+    "main": "main.js",
+    "scripts": {
+      "start": "node main.js"
+    },
+      "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^3.0.5",
+        "socket.io-client": "^3.0.5",
+        "cors": "^2.8.5",
+        "jsonwebtoken": "^8.5.1"
+    }
+}
