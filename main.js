@@ -2,7 +2,7 @@ const app = require('express')();
 const http = require('http').Server(app);
 const io = require('socket.io')(http, {
     cors: {
-        origin: 'http://192.168.0.141:8080', //'http://localhost:4000', //'https://amritb.github.io', //'http://192.168.0.112:8080',
+        origin: 'https://jlam-vue-socketio.netlify.app', //'http://192.168.0.141:8080', //'http://localhost:4000', //'https://amritb.github.io', //'http://192.168.0.112:8080',
         methods: ["GET", "POST"],
         credentials: true
     }
